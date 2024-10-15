@@ -1,12 +1,8 @@
 import {
-  mobile,
   backend,
   creator,
-  web,
   javascript,
   typescript,
-  devbrains,
-  bytebunch,
   html,
   css,
   reactjs,
@@ -19,53 +15,53 @@ import {
   mui,
   wordpress,
   elementor,
-  byteBunch,
-  bytebunchBlog,
-  devBrains,
-  barberShop,
-  byteKiDuniya,
-  meharHerbals,
-  trackomatric,
-  warraichTraders,
-  waveslines,
-  allInOneMedia,
-  cacheStore,
+  // byteBunch,
+  // bytebunchBlog,
+  // devBrains,
+  // barberShop,
+  // byteKiDuniya,
+  // meharHerbals,
+  // trackomatric,
+  // warraichTraders,
+  // waveslines,
+  // allInOneMedia,
+  // cacheStore,
 } from "../assets";
 
 export const socialLinks = [
   {
     name: "Whatsapp",
-    link: "https://web.whatsapp.com/send?phone=923090886518",
+    link: "https://web.whatsapp.com/send?phone=923076051825",
     icon: "fa-brands fa-whatsapp",
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/mehar.amir.ali.liaqat",
+    link: "https://www.facebook.com/m.shoaib.nazamii",
     icon: "fa-brands fa-facebook",
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/amir.ali.liaqat/",
+    link: "https://www.instagram.com/muhammad_shoaib_nazami/",
     icon: "fa-brands fa-instagram",
   },
   {
     name: "GitHub",
-    link: "https://github.com/AmirAliLiaqat",
+    link: "https://github.com/MShoaibNazami",
     icon: "fa-brands fa-github",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/amir-ali-liaqat",
+    link: "https://www.linkedin.com/in/m-shoaib-nazami/",
     icon: "fa-brands fa-linkedin",
   },
   {
     name: "Google",
-    link: "mailto:amirliaqat2020@gmail.com",
+    link: "mailto:m.shoaib.nazami@gmail.com",
     icon: "fa-brands fa-google",
   },
   {
     name: "Phone",
-    link: "tel:3090886518",
+    link: "tel:+923076051825",
     icon: "fa-solid fa-phone",
   },
 ];
@@ -74,10 +70,6 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "experience",
-    title: "Experience",
   },
   {
     id: "work",
@@ -91,35 +83,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Designing",
-    icon: web,
-  },
-  {
-    title: "Web Developement",
-    icon: mobile,
-  },
-  {
-    title: "Frontend Developement",
+    title: "Game Developement",
     icon: creator,
   },
   {
-    title: "Wordpress Developement",
-    icon: backend,
-  },
-  {
-    title: "E-Commerce Solutions",
-    icon: web,
-  },
-  {
-    title: "Blogging Solutions",
-    icon: mobile,
-  },
-  {
-    title: "MERN Stack Development",
-    icon: creator,
-  },
-  {
-    title: "Responsive Design",
+    title: "Responsive Games",
     icon: backend,
   },
 ];
@@ -183,61 +151,6 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Web Designer",
-    company_name: "ByteBunch",
-    icon: bytebunch,
-    iconBg: "#383E56",
-    date: "Sep 2021 - Dec 2021",
-    points: [
-      "Developed and maintained websites using HTML5, CSS3, and Bootstrap5.",
-      "Collaborated with cross-functional teams including designers and product managers to create high-quality products.",
-      "Implemented responsive design and ensured cross-browser compatibility.",
-      "Worked with WordPress and Elementor for website development.",
-    ],
-  },
-  {
-    title: "WordPress Developer",
-    company_name: "ByteBunch",
-    icon: bytebunch,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Aug 2023",
-    points: [
-      "Developed custom WordPress themes and plugins.",
-      "Worked extensively with PHP and MySQL for backend development.",
-      "Collaborated with cross-functional teams to deliver optimized WordPress solutions.",
-      "Ensured website performance, security, and responsiveness.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "DevBrains",
-    icon: devbrains,
-    iconBg: "#E6DEDD",
-    date: "Aug 2023 - Present",
-    points: [
-      "Developed and maintained web applications using HTML5, CSS3, Bootstrap5, and React.js.",
-      "Worked with Next.js, Recoil.js, and Material UI for creating dynamic and scalable front-end interfaces.",
-      "Implemented GraphQL for efficient data fetching.",
-      "Collaborated with designers and backend developers to create seamless user experiences.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "DevBrains",
-    icon: devbrains,
-    iconBg: "#E6DEDD",
-    date: "May 2024 - Present",
-    points: [
-      "Developing full-stack web applications using React.js, Next.js, and Node.js.",
-      "Working with Recoil.js and Material UI to build dynamic user interfaces.",
-      "Handled backend development using Nest.js and MongoDB.",
-      "Integrated GraphQL for managing complex data queries and mutations.",
-    ],
-  },
-];
-
 const testimonials = [
   {
     testimonial:
@@ -266,324 +179,324 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "ByteBunch",
-    description:
-      "ByteBunch is an IT Services Provider Company that provides many services like Web Development, Graphic development, and many more.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: byteBunch,
-    source_code_link: "https://github.com/",
-    source_link: "https://amiraliliaqat.github.io/ByteBunch-Html/",
-  },
-  {
-    name: "ByteBunch Blog",
-    description:
-      "ByteBunch Blog is the blogging site for ByteBunch IT services provider company to aware the peoples with latest information and updates.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bytebunchBlog,
-    source_code_link: "https://github.com/",
-    source_link: "https://amiraliliaqat.github.io/Test-ByteBunch-Html/",
-  },
-  {
-    name: "Byte Ki Duniya",
-    description:
-      "Byte Ki Duniya is an IT services provider company that provides all the ultimate solutions for your business.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: byteKiDuniya,
-    source_code_link: "https://github.com/",
-    source_link: "http://byte.likesyou.org/",
-  },
-  {
-    name: "DevBrains",
-    description:
-      "DevBrains is an IT Services Provider Company that provides many services like Web Development, Graphic development, and many more.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "elementor",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: devBrains,
-    source_code_link: "https://github.com/",
-    source_link: "http://devbrains.likesyou.org/",
-  },
-  {
-    name: "Warraich Traders",
-    description:
-      "Warriach Traders is the housing society management system that is used for buying houses and managing houses materials.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-    ],
-    image: warraichTraders,
-    source_code_link: "https://github.com/",
-    source_link: "https://warraich-traders-react.vercel.app/",
-  },
-  {
-    name: "Mehar Herbals",
-    description:
-      "Mehar Herbals is an ecommerce site providing various variaty of herbals products to fullfill your herbal needs.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "woocommerce",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: meharHerbals,
-    source_code_link: "https://github.com/",
-    source_link: "http://meharherbals.likesyou.org/",
-  },
-  {
-    name: "Trackomatric",
-    description:
-      "Trakomatic is an artificial intelligence system for detacking security activites at large scale and shopping malls.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: trackomatric,
-    source_code_link: "https://github.com/",
-    source_link: "https://amiraliliaqat.github.io/Trackomatric/",
-  },
-  {
-    name: "Barber Shop",
-    description:
-      "Complate and responseive barber shop template using mern stack with good and attractive user experience and user interface.",
-    tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: barberShop,
-    source_code_link: "https://github.com/",
-    source_link: "https://barber-shop-tau-three.vercel.app/",
-  },
-  {
-    name: "Waveslines",
-    description:
-      "Waveslines is an ecommerce services provider company which can offers products of all seasons and vatities.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "elementor",
-        color: "green-text-gradient",
-      },
-    ],
-    image: waveslines,
-    source_code_link: "https://github.com/",
-    source_link: "https://weavelinens.com/",
-  },
-  {
-    name: "All in one media",
-    description:
-      "All in one media is the complete and fully featured media solutions application with various modules and features.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: allInOneMedia,
-    source_code_link: "https://github.com/",
-    source_link: "https://all-in-one-media.vercel.app",
-  },
-  {
-    name: "Cache Store",
-    description:
-      "Cache store is full-featured online mobile accessories selling ecommerce website. Cache store have multiple categories like airbuds, hand-frees, mobile charger etc.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "elementor",
-        color: "green-text-gradient",
-      },
-      {
-        name: "woocommerce",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cacheStore,
-    source_code_link: "https://github.com/",
-    source_link: "https://cachestore.likesyou.org",
-  },
+  // {
+  //   name: "ByteBunch",
+  //   description:
+  //     "ByteBunch is an IT Services Provider Company that provides many services like Web Development, Graphic development, and many more.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: byteBunch,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://amiraliliaqat.github.io/ByteBunch-Html/",
+  // },
+  // {
+  //   name: "ByteBunch Blog",
+  //   description:
+  //     "ByteBunch Blog is the blogging site for ByteBunch IT services provider company to aware the peoples with latest information and updates.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: bytebunchBlog,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://amiraliliaqat.github.io/Test-ByteBunch-Html/",
+  // },
+  // {
+  //   name: "Byte Ki Duniya",
+  //   description:
+  //     "Byte Ki Duniya is an IT services provider company that provides all the ultimate solutions for your business.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: byteKiDuniya,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "http://byte.likesyou.org/",
+  // },
+  // {
+  //   name: "DevBrains",
+  //   description:
+  //     "DevBrains is an IT Services Provider Company that provides many services like Web Development, Graphic development, and many more.",
+  //   tags: [
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "elementor",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: devBrains,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "http://devbrains.likesyou.org/",
+  // },
+  // {
+  //   name: "Warraich Traders",
+  //   description:
+  //     "Warriach Traders is the housing society management system that is used for buying houses and managing houses materials.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: warraichTraders,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://warraich-traders-react.vercel.app/",
+  // },
+  // {
+  //   name: "Mehar Herbals",
+  //   description:
+  //     "Mehar Herbals is an ecommerce site providing various variaty of herbals products to fullfill your herbal needs.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "woocommerce",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: meharHerbals,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "http://meharherbals.likesyou.org/",
+  // },
+  // {
+  //   name: "Trackomatric",
+  //   description:
+  //     "Trakomatic is an artificial intelligence system for detacking security activites at large scale and shopping malls.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: trackomatric,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://amiraliliaqat.github.io/Trackomatric/",
+  // },
+  // {
+  //   name: "Barber Shop",
+  //   description:
+  //     "Complate and responseive barber shop template using mern stack with good and attractive user experience and user interface.",
+  //   tags: [
+  //     {
+  //       name: "html5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: barberShop,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://barber-shop-tau-three.vercel.app/",
+  // },
+  // {
+  //   name: "Waveslines",
+  //   description:
+  //     "Waveslines is an ecommerce services provider company which can offers products of all seasons and vatities.",
+  //   tags: [
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "elementor",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: waveslines,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://weavelinens.com/",
+  // },
+  // {
+  //   name: "All in one media",
+  //   description:
+  //     "All in one media is the complete and fully featured media solutions application with various modules and features.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "next.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "express.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: allInOneMedia,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://all-in-one-media.vercel.app",
+  // },
+  // {
+  //   name: "Cache Store",
+  //   description:
+  //     "Cache store is full-featured online mobile accessories selling ecommerce website. Cache store have multiple categories like airbuds, hand-frees, mobile charger etc.",
+  //   tags: [
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "elementor",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "woocommerce",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: cacheStore,
+  //   source_code_link: "https://github.com/",
+  //   source_link: "https://cachestore.likesyou.org",
+  // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, testimonials, projects };
