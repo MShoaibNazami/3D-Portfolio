@@ -73,7 +73,7 @@ const About = () => {
       </motion.div>
 
       <motion.div>
-        <a href="https://drive.google.com/file/d/1DbTAm4LucVcbPvsDsaBpq2whymNxCWEC/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1VB-9ldY9rNDg080wcntycXTjDdyKaMd2/view?usp=sharing" target="_blank">
           <button className="mt-4 bg-[#915EFF] text-white py-2 px-4 rounded">
             View Resume
           </button>
