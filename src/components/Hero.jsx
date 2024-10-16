@@ -18,20 +18,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Amir Ali</span>
+            Hi, I'm <span className="text-[#915EFF]">M Moiz Khan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a dedicated front-end developer passionate about crafting
-            exceptional web experiences. With a solid foundation of 2 years in
-            web development, I have honed my skills across various technologies
-            to create dynamic and user-friendly interfaces.
-          </p>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Currently, I am an integral part of a dynamic team contributing my
-            skills to develop cutting-edge web applications. My role involves
-            working with React.js, TypeScript, JavaScript, and Next.js, as well
-            as backend technologies to build robust, high-performance solutions
-            catering to modern user expectations.
+          Highly skilled and results-oriented passionate and energetic Unity game developer with
+          over 4 years of experience in creating, engaging , designing, developing, and deploying
+          robust and scalable immersive mobile games. Skilled in Unity 2d, 3d, Multiplayer,AR/VR,C#
+          ,C++,Scripting and animation .Proven ability to lead teams and deliver projects on time
+          collaborating effectively in team environments. Passionate about learning new technologies
+          and staying up-to-date with industry trends.
           </p>
         </div>
       </div>
