@@ -18,15 +18,14 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">M Moiz Khan</span>
+            Hi, I'm <span className="text-[#915EFF]">Muhammad Shoaib Nazami</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Highly skilled and results-oriented passionate and energetic Unity game developer with
-          over 4 years of experience in creating, engaging , designing, developing, and deploying
-          robust and scalable immersive mobile games. Skilled in Unity 2d, 3d, Multiplayer,AR/VR,C#
-          ,C++,Scripting and animation .Proven ability to lead teams and deliver projects on time
-          collaborating effectively in team environments. Passionate about learning new technologies
-          and staying up-to-date with industry trends.
+            Full-stack developer at DevBrains, building production SaaS
+            interfaces with React, Next.js and TypeScript on top of GraphQL
+            APIs backed by NestJS, Prisma and PostgreSQL. Outside work, I build
+            MERN stack projects end to end — from schema design and REST APIs
+            to deployed React interfaces.
           </p>
         </div>
       </div>

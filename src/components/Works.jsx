@@ -9,6 +9,14 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
+const projectInitials = (name) =>
+  name
+    .split(" ")
+    .map((w) => w[0])
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
+
 const ProjectCard = ({
   index,
   name,
@@ -29,34 +37,53 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
+          {image ? (
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          ) : (
+            <div
+              className="w-full h-full rounded-2xl flex items-center justify-center"
+              style={{
+                background: "linear-gradient(135deg, #915EFF 0%, #5e35b1 100%)",
+              }}
+            >
+              <span className="text-white font-black text-[64px]">
+                {projectInitials(name)}
+              </span>
+            </div>
+          )}
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient mx-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+          {(source_code_link || source_link) && (
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              {source_code_link && (
+                <div
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className="black-gradient mx-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                >
+                  <img
+                    src={github}
+                    alt="source code"
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
+              )}
+              {source_link && (
+                <div
+                  onClick={() => window.open(source_link, "_blank")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                >
+                  <img
+                    src={glob}
+                    alt="source link"
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
+              )}
             </div>
-            <div
-              onClick={() => window.open(source_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={glob}
-                alt="source link"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
+          )}
         </div>
 
         <div className="mt-5">

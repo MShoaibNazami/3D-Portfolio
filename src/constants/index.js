@@ -1,27 +1,19 @@
 import {
-  backend, creator, javascript,
-  html, css,
+  web,
+  backend,
+  creator,
+  javascript,
+  typescript,
+  reactjs,
+  redux,
   tailwind,
-  git, php,
-  mysql, mui,
+  nodejs,
+  mongodb,
+  git,
+  devbrains,
 } from "../assets";
 
 export const socialLinks = [
-  {
-    name: "Whatsapp",
-    link: "https://web.whatsapp.com/send?phone=923006673009",
-    icon: "fa-brands fa-whatsapp",
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/moizkhan6",
-    icon: "fa-brands fa-facebook",
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/m_moiz_k/",
-    icon: "fa-brands fa-instagram",
-  },
   {
     name: "GitHub",
     link: "https://github.com/MShoaibNazami",
@@ -29,17 +21,22 @@ export const socialLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/moiz-khan-developer/",
+    link: "https://www.linkedin.com/in/m-shoaib-nazami",
     icon: "fa-brands fa-linkedin",
   },
   {
-    name: "Google",
-    link: "mailto:dev.moiz.khan@gmail.com",
-    icon: "fa-brands fa-google",
+    name: "Whatsapp",
+    link: "https://wa.me/923076051825",
+    icon: "fa-brands fa-whatsapp",
+  },
+  {
+    name: "Email",
+    link: "mailto:m.shoaib.nazami@gmail.com",
+    icon: "fa-solid fa-envelope",
   },
   {
     name: "Phone",
-    link: "tel:+923006673009",
+    link: "tel:+923076051825",
     icon: "fa-solid fa-phone",
   },
 ];
@@ -61,100 +58,152 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Game Developement",
-    icon: creator,
+    title: "Frontend Development",
+    icon: web,
   },
   {
-    title: "Responsive Games",
+    title: "Backend Development",
     icon: backend,
+  },
+  {
+    title: "MERN Stack Apps",
+    icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "Redux",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "git",
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
-  {
-    name: "Material UI",
-    icon: mui,
   },
 ];
 
-const testimonials = [
+const experiences = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Frontend / Full-Stack Developer",
+    company_name: "DevBrains",
+    icon: devbrains,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Build production SaaS interfaces with React, Next.js and TypeScript, consuming GraphQL APIs backed by NestJS, Prisma and PostgreSQL.",
+      "Develop feature-based frontend modules in a DDD-structured codebase using typed GraphQL operations generated through codegen.",
+      "Maintain a reusable component library to keep the UI consistent across features.",
+      "Deliver work through Jira tickets, pull requests and code review in an Agile team.",
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Business Development Manager",
+    company_name: "DevBrains",
+    icon: devbrains,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Aug 2025",
+    points: [
+      "Managed lead research and outreach, and the company's presence on LinkedIn, Wellfound and Glassdoor, before returning to engineering with a stronger understanding of client needs.",
+    ],
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Junior Web Developer",
+    company_name: "DevBrains",
+    icon: devbrains,
+    iconBg: "#383E56",
+    date: "Apr 2023 - Jan 2024",
+    points: [
+      "Built and maintained responsive client websites in JavaScript and React; fixed bugs and delivered client change requests.",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Animals Transform",
+    name: "Gulshan Estate: Real-Estate Web Platform",
     description:
-      "Animal Shape Transforming Race offers an exhilarating and captivating race where you must morph your animal to match the terrain, boosting your speed and leaving competitors in the dust. Step into a world of endless fun where every transformation brings laughter and excitement. 🌟",
+      "A fast, searchable way for property buyers and agents to browse and enquire about listings, with responsive listing and detail pages, search/filter and an enquiry flow.",
     tags: [
       {
-        name: "Unity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "C#",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "ShaderGraph",
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "",
+    source_code_link: "",
+    source_link: "",
+  },
+  {
+    name: "3D Portfolio",
+    description:
+      "Interactive 3D portfolio website built with React, Three.js and Tailwind CSS.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image:"" ,
-    source_code_link: "",
-    source_link: "https://play.google.com/store/apps/details?id=com.my.animal.transform.race.game/",
+    image: "",
+    source_code_link: "https://github.com/MShoaibNazami/3D-Portfolio",
+    source_link: "",
+  },
+  {
+    name: "Rangy-e-Noor",
+    description: "Web project hosted on GitHub.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "",
+    source_code_link: "https://github.com/MShoaibNazami/rangy-e-noor",
+    source_link: "",
   },
 ];
 
-export { services, technologies, testimonials, projects };
+export { services, technologies, experiences, projects };

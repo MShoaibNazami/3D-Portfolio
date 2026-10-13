@@ -47,6 +47,9 @@ const About = () => {
             href={socialLink.link}
             key={index}
             className="w-15 h-15 cursor-pointer me-2"
+            target="_blank"
+            rel="noreferrer"
+            title={socialLink.name}
           >
             <i className={`${socialLink.icon} fa-2x`}></i>
           </a>
@@ -56,24 +59,26 @@ const About = () => {
       <motion.div className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
         <h1 className={styles.sectionSubText}>🛠️ My expertise lies in:</h1>
         <ul className="mt-3">
-          <li>✅ Proficient in HTML/CSS for clean, responsive designs.</li>
+          <li>✅ React, Next.js & TypeScript for production SaaS interfaces.</li>
+          <li>✅ GraphQL APIs backed by NestJS, Prisma & PostgreSQL.</li>
           <li>
-            ✅ Skilled in Bootstrap for mobile-first, visually appealing
-            layouts.
+            ✅ MERN stack projects end to end: MongoDB, Express.js, React,
+            Node.js.
           </li>
-          <li>✅ JavaScript & TypeScript for dynamic, scalable apps.</li>
-          <li>✅ React.js & Next.js for fast, interactive web applications.</li>
           <li>
-            ✅ WordPress: Custom themes with custom post types, widgets, and
-            more.
+            ✅ Typed GraphQL operations via codegen and reusable component
+            libraries.
           </li>
-          <li>✅ PHP & MySQL for robust WordPress solutions.</li>
-          <li>✅ Node.js, Express.js, and MongoDB for backend development.</li>
+          <li>✅ REST APIs, JWT auth and responsive UI with Tailwind CSS.</li>
+          <li>
+            ✅ Agile delivery through Jira tickets, pull requests and code
+            review.
+          </li>
         </ul>
       </motion.div>
 
       <motion.div>
-        <a href="https://drive.google.com/file/d/1VB-9ldY9rNDg080wcntycXTjDdyKaMd2/view?usp=sharing" target="_blank">
+        <a href="resume.html" target="_blank" rel="noreferrer">
           <button className="mt-4 bg-[#915EFF] text-white py-2 px-4 rounded">
             View Resume
           </button>
