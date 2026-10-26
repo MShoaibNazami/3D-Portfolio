@@ -4,13 +4,75 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---------- theme tokens: light defaults, .dark on <html> overrides ---------- */
+:root {
+  --color-primary: 245 245 250;
+  --color-secondary: 88 84 122;
+  --color-tertiary: 255 255 255;
+  --color-black-100: 236 235 245;
+  --color-black-200: 226 224 240;
+  --color-white-100: 62 59 92;
+  --color-white: 21 16 48;
+  color-scheme: light;
+}
+
+:root.dark {
+  --color-primary: 5 8 22;
+  --color-secondary: 170 166 195;
+  --color-tertiary: 21 16 48;
+  --color-black-100: 16 13 37;
+  --color-black-200: 9 3 37;
+  --color-white-100: 243 243 243;
+  --color-white: 255 255 255;
+  color-scheme: dark;
+}
+
+body {
+  background-color: rgb(var(--color-primary));
+  color: rgb(var(--color-white));
+}
+
+/* the hero background photo is dark artwork; use a soft gradient in light mode */
+:root:not(.dark) .bg-hero-pattern {
+  background-image: linear-gradient(
+    180deg,
+    #e9e6fb 0%,
+    rgb(var(--color-primary)) 95%
+  ) !important;
+}
+
+/* white svg icons (mobile menu / close) need inverting on a light navbar */
+:root:not(.dark) .theme-icon {
+  filter: invert(1);
+}
+
+/* experience timeline: the library paints its cards with inline dark styles */
+:root:not(.dark) .vertical-timeline::before {
+  background: #d9d6ee;
+}
+:root:not(.dark) .vertical-timeline-element-content {
+  background: #ffffff !important;
+  color: rgb(var(--color-white)) !important;
+  box-shadow: 0 3px 12px rgba(21, 16, 48, 0.1);
+}
+:root:not(.dark) .vertical-timeline-element-content-arrow {
+  border-right-color: #ffffff !important;
+}
+:root:not(.dark) .vertical-timeline-element-date {
+  color: rgb(var(--color-white-100));
+}
+
+/* 3d canvas loading spinner: violet dots on light backgrounds */
+:root:not(.dark) .canvas-loader {
+  animation-name: mulShdSpinLight;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
 
 .hash-span {
@@ -200,5 +262,82 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+@keyframes mulShdSpinLight {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #915eff,
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.2),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.2),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.5),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.7),
+      1.8em -1.8em 0 0em #915eff, 2.5em 0em 0 0em rgba(145, 94, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.2),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.2),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.5),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.7), 2.5em 0em 0 0em #915eff,
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.2),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.2),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.5),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.7), 1.75em 1.75em 0 0em #915eff,
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.2),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.5),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.7), 0em 2.5em 0 0em #915eff,
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.2),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.5),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.7), -1.8em 1.8em 0 0em #915eff,
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.2),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.5),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.7), -2.6em 0em 0 0em #915eff,
+      -1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(145, 94, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(145, 94, 255, 0.2),
+      2.5em 0em 0 0em rgba(145, 94, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(145, 94, 255, 0.2),
+      0em 2.5em 0 0em rgba(145, 94, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(145, 94, 255, 0.5),
+      -2.6em 0em 0 0em rgba(145, 94, 255, 0.7), -1.8em -1.8em 0 0em #915eff;
   }
 }
