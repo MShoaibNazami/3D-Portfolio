@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 7727 >>
+stream
+BT /F2 19 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 792.0 Tm (MUHAMMAD SHOAIB NAZAMI) Tj ET
+BT /F2 10.5 Tf 0.12 0.53 0.9 rg 1 0 0 1 40.0 773.0 Tm (Full-Stack Developer | MERN | Next.js | TypeScript) Tj ET
+BT /F1 8.5 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 757.0 Tm (+92 307 6051825    m.shoaib.nazami@gmail.com) Tj ET
+BT /F1 8.5 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 745.0 Tm (linkedin.com/in/m-shoaib-nazami    github.com/MShoaibNazami    Lahore, Pakistan) Tj ET
+q 0.12 0.53 0.9 rg 512 805 m 526.9121 805 539 792.9121 539 778 c 539 763.0879 526.9121 751 512 751 c 497.0879 751 485 763.0879 485 778 c 485 792.9121 497.0879 805 512 805 c f Q
+BT /F2 15 Tf 1 1 1 rg 1 0 0 1 499.1 772.8 Tm (MS) Tj ET
+q 1.4 w 0.13 0.13 0.13 RG 40 730 m 555 730 l S Q
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 714.0 Tm (ABOUT) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 40 710 m 343 710 l S Q
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 686.4 Tm (Full-stack developer at DevBrains, building production SaaS) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 674.8 Tm (interfaces with React, Next.js and TypeScript on top of GraphQL APIs) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 663.2 Tm (backed by NestJS, Prisma and PostgreSQL. I work in a) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 651.6 Tm (domain-driven, feature-based codebase with typed GraphQL) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 640.0 Tm (operations and a reusable component library, and deliver through) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 628.4 Tm (Jira tickets, pull requests and code review in an Agile team. Outside) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 616.8 Tm (work, I build MERN stack projects end to end, from schema design) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 605.2 Tm (and REST APIs to deployed React interfaces.) Tj ET
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 589.2 Tm (EXPERIENCE) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 40 585.1999999999998 m 343 585.1999999999998 l S Q
+BT /F2 9.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 560.2 Tm (Frontend / Full-Stack Developer) Tj ET
+BT /F2 9.3 Tf 0.12 0.53 0.9 rg 1 0 0 1 40.0 548.7 Tm (DevBrains) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 538.2 Tm (09/2025 - Present    Lahore) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 526.6 Tm (- Build production SaaS interfaces with React, Next.js and) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 515.0 Tm (  TypeScript, consuming GraphQL APIs backed by NestJS, Prisma) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 503.4 Tm (  and PostgreSQL.) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 491.8 Tm (- Develop feature-based frontend modules in a DDD-structured) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 480.2 Tm (  codebase using typed GraphQL operations generated through) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 468.6 Tm (  codegen.) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 457.0 Tm (- Maintain a reusable component library to keep the UI consistent) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 445.4 Tm (  across features.) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 433.8 Tm (- Deliver work through Jira tickets, pull requests and code review in) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 422.2 Tm (  an Agile team.) Tj ET
+BT /F2 9.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 407.2 Tm (Business Development Manager) Tj ET
+BT /F2 9.3 Tf 0.12 0.53 0.9 rg 1 0 0 1 40.0 395.7 Tm (DevBrains) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 385.2 Tm (02/2024 - 08/2025    Lahore) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 373.6 Tm (- Managed lead research and outreach, and the company's) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 362.0 Tm (  presence on LinkedIn, Wellfound and Glassdoor, before returning) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 350.4 Tm (  to engineering with a stronger understanding of client needs.) Tj ET
+BT /F2 9.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 335.4 Tm (Junior Web Developer) Tj ET
+BT /F2 9.3 Tf 0.12 0.53 0.9 rg 1 0 0 1 40.0 323.9 Tm (DevBrains) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 313.4 Tm (04/2023 - 01/2024) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 301.8 Tm (- Built and maintained responsive client websites in JavaScript and) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 290.2 Tm (  React; fixed bugs and delivered client change requests.) Tj ET
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 272.2 Tm (EDUCATION) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 40 268.1999999999995 m 343 268.1999999999995 l S Q
+BT /F2 9.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 40.0 244.2 Tm (BS Computer Science) Tj ET
+BT /F2 9.3 Tf 0.12 0.53 0.9 rg 1 0 0 1 40.0 232.7 Tm (University of Central Punjab \(UCP\)) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 40.0 222.2 Tm (2017 - 2022) Tj ET
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 714.0 Tm (SKILLS) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 363 710 m 555 710 l S Q
+BT /F2 9.5 Tf 0.12 0.53 0.9 rg 1 0 0 1 363.0 685.5 Tm (Frontend) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 673.9 Tm (React, Next.js, TypeScript, JavaScript) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 662.3 Tm (\(ES6+\), HTML5, CSS3, Tailwind CSS, Redux,) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 650.7 Tm (Context API, Responsive UI) Tj ET
+BT /F2 9.5 Tf 0.12 0.53 0.9 rg 1 0 0 1 363.0 638.2 Tm (Backend) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 626.6 Tm (Node.js, Express.js, NestJS, REST APIs,) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 615.0 Tm (GraphQL, JWT Auth, Clerk) Tj ET
+BT /F2 9.5 Tf 0.12 0.53 0.9 rg 1 0 0 1 363.0 602.5 Tm (Tools & Practices) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 590.9 Tm (Git, GitHub, Postman, Jira, SDLC, Agile,) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 579.3 Tm (Code review, Vercel, Render) Tj ET
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 563.3 Tm (PROJECTS) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 363 559.2999999999998 m 555 559.2999999999998 l S Q
+BT /F2 9.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 534.8 Tm (Gulshan Estate: Real-Estate Platform) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 363.0 524.3 Tm (MERN | MongoDB, Express, React, Node) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 512.7 Tm (A fast, searchable way for property buyers) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 501.1 Tm (and agents to browse and enquire about) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 489.5 Tm (listings, with responsive listing and detail) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 477.9 Tm (pages, search/filter and an enquiry flow.) Tj ET
+BT /F2 9.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 465.4 Tm (3D Portfolio) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 363.0 454.9 Tm (JavaScript) Tj ET
+BT /F1 8.2 Tf 0.12 0.53 0.9 rg 1 0 0 1 363.0 444.4 Tm (github.com/MShoaibNazami/3D-Portfolio) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 432.8 Tm (Interactive 3D portfolio website.) Tj ET
+BT /F2 9.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 420.3 Tm (Rangy-e-Noor) Tj ET
+BT /F1 8.2 Tf 0.37 0.39 0.41 rg 1 0 0 1 363.0 409.8 Tm (JavaScript) Tj ET
+BT /F1 8.2 Tf 0.12 0.53 0.9 rg 1 0 0 1 363.0 399.3 Tm (github.com/MShoaibNazami/rangy-e-noor) Tj ET
+BT /F1 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 387.7 Tm (Web project hosted on GitHub.) Tj ET
+BT /F2 10.5 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 371.7 Tm (CERTIFICATIONS) Tj ET
+q 1.0 w 0.13 0.13 0.13 RG 363 367.6999999999997 m 555 367.6999999999997 l S Q
+BT /F2 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 340.1 Tm (Software Development Life Cycle) Tj ET
+BT /F2 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 328.5 Tm (\(SDLC\)) Tj ET
+BT /F2 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 312.9 Tm (Business Development & B2B Sales) Tj ET
+BT /F2 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 297.3 Tm (Business Development for Startups &) Tj ET
+BT /F2 8.8 Tf 0.1 0.1 0.1 rg 1 0 0 1 363.0 285.7 Tm (Tech Companies) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000008029 00000 n 
+0000008126 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+8228
+%%EOF
