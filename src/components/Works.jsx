@@ -50,7 +50,7 @@ const ProjectCard = ({
                 background: "linear-gradient(135deg, #915EFF 0%, #5e35b1 100%)",
               }}
             >
-              <span className="text-white font-black text-[64px]">
+              <span className="text-[#ffffff] font-black text-[64px]">
                 {projectInitials(name)}
               </span>
             </div>
