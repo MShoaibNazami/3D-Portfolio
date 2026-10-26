@@ -78,9 +78,9 @@ const About = () => {
       </motion.div>
 
       <motion.div>
-        <a href="resume.html" target="_blank" rel="noreferrer">
+        <a href="/resume.pdf" download="Muhammad_Shoaib_Nazami_Resume.pdf">
           <button className="mt-4 bg-[#915EFF] text-white py-2 px-4 rounded">
-            View Resume
+            Download Resume
           </button>
         </a>
       </motion.div>
